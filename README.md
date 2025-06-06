@@ -17,10 +17,9 @@ To set up ChatX on your local machine, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/your-username/ChatX.git
+    git clone https://github.com/old-droid/ChatX.git
     cd ChatX
     ```
-    (Note: Replace `https://github.com/your-username/ChatX.git` with the actual repository URL if different.)
 
 2.  **Create a virtual environment:**
     ```bash
