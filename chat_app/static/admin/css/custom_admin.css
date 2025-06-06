@@ -1,0 +1,47 @@
+/* Basic styling for Django Admin login page */
+#container {
+    background-color: #1a1a2e; /* Dark background */
+    color: #e0e0e0;
+}
+
+#header {
+    background-color: #0f3460; /* Dark blue header */
+    color: white;
+}
+
+#content {
+    background-color: #16213e; /* Darker content background */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.form-row {
+    background-color: #16213e; /* Match content background */
+}
+
+.submit-row input[type="submit"] {
+    background-color: #e94560; /* Accent color for submit button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-row input[type="submit"]:hover {
+    background-color: #b82f47; /* Darker accent on hover */
+}
+
+.errorlist {
+    color: #ff6b6b; /* Error message color */
+}
+
+div.breadcrumbs {
+    background: #0f3460;
+    color: #e0e0e0;
+}
+
+div.breadcrumbs a {
+    color: #e94560;
+}
